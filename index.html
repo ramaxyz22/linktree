@@ -120,16 +120,17 @@
             height: 100%;
             object-fit: cover;
         }
+.profile-name {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
 
-        .profile-name {
-            font-size: 32px;
-            font-weight: 700;
-            margin-bottom: 8px;
-            background: linear-gradient(135deg, #7c3aed, #3b82f6);
-
-            -webkit-text-fill-color: transparent;
-        }
-
+    background: linear-gradient(135deg, #7c3aed, #3b82f6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
         .profile-bio {
             color: #b3b3b3;
             font-size: 16px;
@@ -384,7 +385,7 @@
                 <!-- GANTI DENGAN FOTO LU -->
                 <img src="profile.jpg" alt="Profile">
             </div>
-            <h1 class="profile-name">RAMA SILALAHiS</h1>
+            <h1 class="profile-name">RAMA SILALAHi</h1>
             <p class="profile-bio">Web Developer Newbie</p>
             <span class="profile-badge">
                 <i class="fas fa-crown" style="margin-right: 5px;"></i>
@@ -408,7 +409,7 @@
     </a>
 
     <!-- GitHub -->
-    <a href="https://ramaxyz22" target="_blank" class="link-card">
+     <a href="https://github.com/ramaxyz22" target="_blank" class="link-card">
         <div class="link-icon">
             <i class="fab fa-github"></i>
         </div>
